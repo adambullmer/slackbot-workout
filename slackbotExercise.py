@@ -233,7 +233,7 @@ def assignExercise(bot, exercise):
 
     # EVERYBODY
     if random.random() < bot.group_callout_chance:
-        winner_announcement += "@channel!"
+        winner_announcement += "@here!"
 
         for user_id in bot.user_cache:
             user = bot.user_cache[user_id]
